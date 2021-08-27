@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9208A87226C0DA0600EB2500 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208A87126C0DA0600EB2500 /* MKPointAnnotation-Codable.swift */; };
+		921EFCB426BDD59E00BA457C /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EFCB326BDD59E00BA457C /* MKPointAnnotation-ObservableObject.swift */; };
+		921EFCB626BDD67B00BA457C /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EFCB526BDD67B00BA457C /* EditView.swift */; };
+		921EFCB826BDDC0300BA457C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EFCB726BDDC0300BA457C /* Result.swift */; };
+		922F3C1226C3481400662F66 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F3C1126C3481400662F66 /* LocationView.swift */; };
+		92500BD126BC6AFC00F55279 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92500BD026BC6AFC00F55279 /* MapView.swift */; };
 		9251A77F26BB188C00571CCD /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9251A77E26BB188C00571CCD /* BucketListApp.swift */; };
 		9251A78126BB188C00571CCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9251A78026BB188C00571CCD /* ContentView.swift */; };
 		9251A78326BB188C00571CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9251A78226BB188C00571CCD /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9208A87126C0DA0600EB2500 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
+		921EFCB326BDD59E00BA457C /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		921EFCB526BDD67B00BA457C /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		921EFCB726BDDC0300BA457C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		922F3C1126C3481400662F66 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		92500BD026BC6AFC00F55279 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		9251A77B26BB188C00571CCD /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9251A77E26BB188C00571CCD /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		9251A78026BB188C00571CCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				9251A77E26BB188C00571CCD /* BucketListApp.swift */,
+				921EFCB726BDDC0300BA457C /* Result.swift */,
 				9251A78026BB188C00571CCD /* ContentView.swift */,
+				922F3C1126C3481400662F66 /* LocationView.swift */,
+				921EFCB326BDD59E00BA457C /* MKPointAnnotation-ObservableObject.swift */,
+				9208A87126C0DA0600EB2500 /* MKPointAnnotation-Codable.swift */,
+				921EFCB526BDD67B00BA457C /* EditView.swift */,
+				92500BD026BC6AFC00F55279 /* MapView.swift */,
 				9251A78226BB188C00571CCD /* Assets.xcassets */,
 				9251A78726BB188C00571CCD /* Info.plist */,
 				9251A78426BB188C00571CCD /* Preview Content */,
@@ -139,6 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9251A78126BB188C00571CCD /* ContentView.swift in Sources */,
+				92500BD126BC6AFC00F55279 /* MapView.swift in Sources */,
+				921EFCB626BDD67B00BA457C /* EditView.swift in Sources */,
+				921EFCB826BDDC0300BA457C /* Result.swift in Sources */,
+				921EFCB426BDD59E00BA457C /* MKPointAnnotation-ObservableObject.swift in Sources */,
+				922F3C1226C3481400662F66 /* LocationView.swift in Sources */,
+				9208A87226C0DA0600EB2500 /* MKPointAnnotation-Codable.swift in Sources */,
 				9251A77F26BB188C00571CCD /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
